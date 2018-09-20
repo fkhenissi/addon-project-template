@@ -2,17 +2,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <parent>
-    <artifactId>@@@artifactId@@@</artifactId>
-    <groupId>@@@groupId@@@</groupId>
-    <version>1.0.x-SNAPSHOT</version>
-  </parent>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>@@@groupId@@@</groupId>
-  <artifactId>@@@artifactId@@@-services</artifactId>
-  <version>1.0.x-SNAPSHOT</version>
-  <name>@@@name@@@ - Services</name>
-  <build>
-    <finalName>@@@artifactId@@@-services</finalName>
-  </build>
+<parent>
+  <artifactId>platform</artifactId>
+  <groupId>org.exoplatform.platform</groupId>
+  <version>5.0.2</version>
+</parent>
+<modelVersion>4.0.0</modelVersion>
+<groupId>org.exoplatform.platform</groupId>
+<artifactId>platform-services</artifactId>
+<version>5.0.2</version>
+<dependencies>
+  <dependency>
+    <groupId>org.exoplatform.commons</groupId>
+    <artifactId>commons-api</artifactId>
+    <version>5.0.2</version>
+  </dependency>
+</dependencies>
+<name>platform - Services</name>
+<build>
+  <finalName>platform-services</finalName>
+</build>
 </project>
